@@ -1,0 +1,373 @@
+{
+  "Movies": [
+    {
+      "id": "ep1",
+      "title": "Star Wars: Episode I - The Phantom Menace",
+      "cast": [
+        "Ewan McGregor - Obi-Wan Kenobi",
+        "Liam Neeson - Qui-Gon Jinn",
+        "Natalie Portman - Queen Amidala"
+      ],
+      "year": 1999,
+      "length": 136,
+      "rating": 6.5
+    },
+
+    {
+      "id": "ep2",
+      "title": "Star Wars: Episode II - Attack of the Clones",
+      "cast": [
+        "Ewan McGregor - Obi-Wan Kenobi",
+        "Hayden Christensen - Anakin Skywalker",
+        "Natalie Portman - Queen Amidala"
+      ],
+      "year": 2002,
+      "length": 142,
+      "rating": 6.6
+    },
+
+    {
+      "id": "ep3",
+      "title": "Star Wars: Episode III - Revenge of the Sith",
+      "cast": [
+        "Ewan McGregor - Obi-Wan Kenobi",
+        "Hayden Christensen - Anakin Skywalker",
+        "Natalie Portman - Padme"
+      ],
+      "year": 2005,
+      "length": 141,
+      "rating": 7.6
+    },
+
+    {
+      "id": "ep4",
+      "title": "Star Wars: Episode IV - A New Hope",
+      "cast": [
+        "Mark Hamill - Luke Skywalker",
+        "Harrison Ford - Han Solo",
+        "Carrie Fisher - Princess Leia"
+      ],
+      "year": 1977,
+      "length": 121,
+      "rating": 8.6
+    },
+
+    {
+      "id": "ep5",
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "cast": [
+        "Mark Hamill - Luke Skywalker",
+        "Harrison Ford - Han Solo",
+        "Carrie Fisher - Princess Leia"
+      ],
+      "year": 1980,
+      "length": 124,
+      "rating": 8.7
+    },
+
+    {
+      "id": "ep6",
+      "title": "Star Wars: Episode VI - Return of the Jedi",
+      "cast": [
+        "Mark Hamill - Luke Skywalker",
+        "Harrison Ford - Han Solo",
+        "Carrie Fisher - Princess Leia"
+      ],
+      "year": 1983,
+      "length": 131,
+      "rating": 8.3
+    }
+  ],
+  
+  "Cast": [
+    {
+      "id": "em",
+      "name": "Ewan McGregor",
+      "birthdate": "March 31, 1971",
+      "nation": "UK",
+      "movies": [
+        {
+          "id": "ep1",
+          "title": "Star Wars: Episode I - The Phantom Menace",
+          "cast": [
+            "Ewan McGregor - Obi-Wan Kenobi",
+            "Liam Neeson - Qui-Gon Jinn",
+            "Natalie Portman - Queen Amidala"
+          ],
+          "year": 1999,
+          "length": 136,
+          "rating": 6.5
+        },
+
+        {
+          "id": "ep2",
+          "title": "Star Wars: Episode II - Attack of the Clones",
+          "cast": [
+            "Ewan McGregor - Obi-Wan Kenobi",
+            "Hayden Christensen - Anakin Skywalker",
+            "Natalie Portman - Queen Amidala"
+          ],
+          "year": 2002,
+          "length": 142,
+          "rating": 6.6
+        },
+
+        {
+          "id": "ep3",
+          "title": "Star Wars: Episode III - Revenge of the Sith",
+          "cast": [
+            "Ewan McGregor - Obi-Wan Kenobi",
+            "Hayden Christensen - Anakin Skywalker",
+            "Natalie Portman - Padme"
+          ],
+          "year": 2005,
+          "length": 141,
+          "rating": 7.6
+        }
+      ]
+    },
+
+    {
+      "id": "np",
+      "name": "Natalie Portman",
+      "birthdate": "June 9, 1981",
+      "nation": "Non-existing",
+      "movies": [
+        {
+          "id": "ep1",
+          "title": "Star Wars: Episode I - The Phantom Menace",
+          "cast": [
+            "Ewan McGregor - Obi-Wan Kenobi",
+            "Liam Neeson - Qui-Gon Jinn",
+            "Natalie Portman - Queen Amidala"
+          ],
+          "year": 1999,
+          "length": 136,
+          "rating": 6.5
+        },
+
+        {
+          "id": "ep2",
+          "title": "Star Wars: Episode II - Attack of the Clones",
+          "cast": [
+            "Ewan McGregor - Obi-Wan Kenobi",
+            "Hayden Christensen - Anakin Skywalker",
+            "Natalie Portman - Queen Amidala"
+          ],
+          "year": 2002,
+          "length": 142,
+          "rating": 6.6
+        },
+
+        {
+          "id": "ep3",
+          "title": "Star Wars: Episode III - Revenge of the Sith",
+          "cast": [
+            "Ewan McGregor - Obi-Wan Kenobi",
+            "Hayden Christensen - Anakin Skywalker",
+            "Natalie Portman - Padme"
+          ],
+          "year": 2005,
+          "length": 141,
+          "rating": 7.6
+        }
+      ]
+    },
+
+    {
+      "id": "hc",
+      "name": "Hayden Christensen",
+      "birthdate": "April 19, 1981",
+      "nation": "Canada",
+      "movies": [
+        {
+          "id": "ep2",
+          "title": "Star Wars: Episode II - Attack of the Clones",
+          "cast": [
+            "Ewan McGregor - Obi-Wan Kenobi",
+            "Hayden Christensen - Anakin Skywalker",
+            "Natalie Portman - Queen Amidala"
+          ],
+          "year": 2002,
+          "length": 142,
+          "rating": 6.6
+        },
+
+        {
+          "id": "ep3",
+          "title": "Star Wars: Episode III - Revenge of the Sith",
+          "cast": [
+            "Ewan McGregor - Obi-Wan Kenobi",
+            "Hayden Christensen - Anakin Skywalker",
+            "Natalie Portman - Padme"
+          ],
+          "year": 2005,
+          "length": 141,
+          "rating": 7.6
+        }
+      ]
+    },
+
+    {
+      "id": "ln",
+      "name": "Liam Neeson",
+      "birthdate": "June 7, 1952",
+      "nation": "UK",
+      "movies": [
+        {
+          "id": "ep1",
+          "title": "Star Wars: Episode I - The Phantom Menace",
+          "cast": [
+            "Ewan McGregor - Obi-Wan Kenobi",
+            "Liam Neeson - Qui-Gon Jinn",
+            "Natalie Portman - Queen Amidala"
+          ],
+          "year": 1999,
+          "length": 136,
+          "rating": 6.5
+        }
+      ]
+    },
+
+    {
+      "id": "mh",
+      "name": "Mark Hamill",
+      "birthdate": "September 25, 1951",
+      "nation": "USA",
+      "movies": [
+        {
+          "id": "ep4",
+          "title": "Star Wars: Episode IV - A New Hope",
+          "cast": [
+            "Mark Hamill - Luke Skywalker",
+            "Harrison Ford - Han Solo",
+            "Carrie Fisher - Princess Leia"
+          ],
+          "year": 1977,
+          "length": 121,
+          "rating": 8.6
+        },
+
+        {
+          "id": "ep5",
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "cast": [
+            "Mark Hamill - Luke Skywalker",
+            "Harrison Ford - Han Solo",
+            "Carrie Fisher - Princess Leia"
+          ],
+          "year": 1980,
+          "length": 124,
+          "rating": 8.7
+        },
+
+        {
+          "id": "ep6",
+          "title": "Star Wars: Episode VI - Return of the Jedi",
+          "cast": [
+            "Mark Hamill - Luke Skywalker",
+            "Harrison Ford - Han Solo",
+            "Carrie Fisher - Princess Leia"
+          ],
+          "year": 1983,
+          "length": 131,
+          "rating": 8.3
+        }
+      ]
+    },
+
+    {
+      "id": "hf",
+      "name": "Harrison Ford",
+      "birthdate": "July 13, 1942",
+      "nation": "USA",
+      "movies": [
+        {
+          "id": "ep4",
+          "title": "Star Wars: Episode IV - A New Hope",
+          "cast": [
+            "Mark Hamill - Luke Skywalker",
+            "Harrison Ford - Han Solo",
+            "Carrie Fisher - Princess Leia"
+          ],
+          "year": 1977,
+          "length": 121,
+          "rating": 8.6
+        },
+
+        {
+          "id": "ep5",
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "cast": [
+            "Mark Hamill - Luke Skywalker",
+            "Harrison Ford - Han Solo",
+            "Carrie Fisher - Princess Leia"
+          ],
+          "year": 1980,
+          "length": 124,
+          "rating": 8.7
+        },
+
+        {
+          "id": "ep6",
+          "title": "Star Wars: Episode VI - Return of the Jedi",
+          "cast": [
+            "Mark Hamill - Luke Skywalker",
+            "Harrison Ford - Han Solo",
+            "Carrie Fisher - Princess Leia"
+          ],
+          "year": 1983,
+          "length": 131,
+          "rating": 8.3
+        }
+      ]
+    },
+
+    {
+      "id": "cf",
+      "name": "Carrie Fisher",
+      "birthdate": "March 31, 1971",
+      "nation": "UK",
+      "movies": [
+        {
+          "id": "ep4",
+          "title": "Star Wars: Episode IV - A New Hope",
+          "cast": [
+            "Mark Hamill - Luke Skywalker",
+            "Harrison Ford - Han Solo",
+            "Carrie Fisher - Princess Leia"
+          ],
+          "year": 1977,
+          "length": 121,
+          "rating": 8.6
+        },
+
+        {
+          "id": "ep5",
+          "title": "Star Wars: Episode V - The Empire Strikes Back",
+          "cast": [
+            "Mark Hamill - Luke Skywalker",
+            "Harrison Ford - Han Solo",
+            "Carrie Fisher - Princess Leia"
+          ],
+          "year": 1980,
+          "length": 124,
+          "rating": 8.7
+        },
+
+        {
+          "id": "ep6",
+          "title": "Star Wars: Episode VI - Return of the Jedi",
+          "cast": [
+            "Mark Hamill - Luke Skywalker",
+            "Harrison Ford - Han Solo",
+            "Carrie Fisher - Princess Leia"
+          ],
+          "year": 1983,
+          "length": 131,
+          "rating": 8.3
+        }
+      ]
+    }
+  ]
+}
