@@ -1,5 +1,7 @@
 const { gql } = require('apollo-server');
 
+//Movies: [Movie!]!
+//movies:[Movie]
 const typeDefs=gql`
 type Query {
     Cast: [Member]

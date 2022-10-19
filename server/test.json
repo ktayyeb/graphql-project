@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ep1",
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "cast": [
+      "Ewan McGregor - Obi-Wan Kenobi",
+      "Liam Neeson - Qui-Gon Jinn",
+      "Natalie Portman - Queen Amidala"
+    ],
+    "year": 1999,
+    "length": 136,
+    "rating": 6.5
+  }
+]

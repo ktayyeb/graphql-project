@@ -14,6 +14,8 @@ const resolvers = {
           return moviesData;
         },
       },
+      
+  
 
   };
 
