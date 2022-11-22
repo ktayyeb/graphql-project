@@ -1,23 +1,29 @@
 const { gql } = require('apollo-server');
 
 const typeDefs=gql`
-type Query {
-    Cast: [Member]
-    Movies: [Movie]
+type Query {    
+    Movies(id:ID,title:String,year:Int,length:Int,rating:Float): [Movie]
+    Cast(id:ID,name:String,birthdate:String,nation:String,moviesIds:[ID],moviesTitles:[String]): [Member]
+}
+
+type Mutation{
+    addMovie(id:ID,title:String,cast:[String],year:Int,length:Int,rating:Float): Movie
+
+    addMember(id:ID,name:String,birthdate:String,nation:String): Member
 }
 
 type Member {
     "The id of the cast member"
-    id:ID!
+    id:ID
 
     "The cast member's name"
-    name: String!
+    name: String
 
     "The cast member's birthdate"
-    birthdate: String!
-
+    birthdate: String
+    
     "The cast member's nationality"
-    nation:String!
+    nation:String
 
     "The movies that he/she played a role in"
     movies:[Movie]
@@ -27,13 +33,13 @@ type Member {
 "A track is a group of Modules that teaches about a specific topic"
 type Movie{
     "The unique id for the movie"
-    id: ID!
+    id: ID
 
     "The title of the movie"
-    title: String!
+    title: String
 
     "The list of names of the cast members"
-    cast: [String!]
+    cast: [String]
 
     "year of release"
     year: Int
